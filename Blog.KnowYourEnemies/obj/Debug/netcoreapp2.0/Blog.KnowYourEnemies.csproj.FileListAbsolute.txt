@@ -6,3 +6,4 @@
 /Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.AssemblyInfo.cs
 /Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll
 /Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.csprojResolveAssemblyReference.cache

@@ -11,7 +11,7 @@ namespace Blog.KnowYourEnemies.Tests
             var sut = new Product(0);
             //Act
             sut.Deposit(1);
-            //Asserttou
+            //Assert
             Assert.Equal(1, sut.Quantity);
         }
         
