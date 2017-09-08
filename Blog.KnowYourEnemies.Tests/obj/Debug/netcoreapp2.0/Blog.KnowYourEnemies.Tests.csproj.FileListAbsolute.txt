@@ -1,0 +1,15 @@
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/xunit.runner.utility.netstandard15.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/xunit.runner.reporters.netstandard15.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.deps.json
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.runtimeconfig.json
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.runtimeconfig.dev.json
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.csproj.CoreCompileInputs.cache
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.AssemblyInfoInputs.cache
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.AssemblyInfo.cs
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb

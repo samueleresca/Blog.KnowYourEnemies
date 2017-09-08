@@ -1,0 +1,8 @@
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.deps.json
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.csproj.CoreCompileInputs.cache
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.AssemblyInfoInputs.cache
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.AssemblyInfo.cs
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll
+/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb

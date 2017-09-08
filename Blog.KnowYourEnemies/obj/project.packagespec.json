@@ -1,0 +1,29 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/Blog.KnowYourEnemies.csproj",
+    "projectName": "Blog.KnowYourEnemies",
+    "projectPath": "/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/Blog.KnowYourEnemies.csproj",
+    "outputPath": "/Users/samueleresca/Documents/Projects/Blog.KnowYourEnemies/Blog.KnowYourEnemies/obj/",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {}
+      }
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "2.0.0-preview2-25407-01"
+        }
+      }
+    }
+  }
+}
