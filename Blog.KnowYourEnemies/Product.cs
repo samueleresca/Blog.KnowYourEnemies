@@ -1,42 +1,34 @@
 ﻿using System;
+using System.Xml.Xsl;
+using Blog.KnowYourEnemies.ProductStates;
 
 namespace Blog.KnowYourEnemies
 {
     public class Product
     {
         public int Quantity { get; private set; }
-        public bool IsSoldout { get; private set; }
-        private bool IsBanned { get; set; }
-        private Action OnSoldOut { get; set; }
+
+        public IProductState State { get; set; }
 
 
-        public Product(int quantity, Action onSoldOut, bool isBanned = false, bool isSoldout = true)
+        public Product(int quantity,  IProductState productState)
         {
             Quantity = quantity;
-            IsBanned = isBanned;
-            IsSoldout = isSoldout;
-            OnSoldOut = onSoldOut;
+            State = productState;
         }
 
         public void Deposit(int amount)
         {
-            if (IsBanned) return;
-            Quantity += amount;
+            State = State.Deposit(() => Quantity += amount );
 
-            if (!IsSoldout) return;
-            IsSoldout = false;
-            OnSoldOut();
         }
 
         public void Withdraw(int amount)
         {
-            if (IsBanned || Quantity < amount) return;
-            Quantity -= amount;
-
-            if (Quantity == 0)
-            {
-                IsSoldout = true;
-            }
+            if ( Quantity < amount) return;
+            
+            State = State.Withdraw(() => Quantity -= amount );
+            State = State.Soldout(Quantity);
         }
     }
 }
