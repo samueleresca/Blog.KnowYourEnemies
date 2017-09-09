@@ -1,23 +1,34 @@
-﻿namespace Blog.KnowYourEnemies
+﻿using System;
+
+namespace Blog.KnowYourEnemies
 {
        public class Product
        {
            public int Quantity { get; private set; }
            
            private bool IsBanned { get; set; }
-   
-   
-           public Product( int quantity, bool isBanned= false)
+
+           private bool IsSoldout { get; set; }
+
+           private Action OnSoldOut { get; set; }
+
+
+           public Product(int quantity,  Action onSoldOut, bool isBanned = false)
            {
                Quantity = quantity;
                IsBanned = isBanned;
+               OnSoldOut = onSoldOut;
            }
            
            public void Deposit(int amount)
            {
-               if (!IsBanned)
+               if (IsBanned) return;
+               Quantity += amount;
+
+               if (IsSoldout)
                {
-                   Quantity += amount;
+                   IsSoldout = false;
+                   OnSoldOut();
                }
            }
    
@@ -26,6 +37,10 @@
                if (!IsBanned && Quantity >= amount)
                {
                    Quantity -= amount;
+                   
+               }else if (Quantity == 0)
+               {
+                   IsSoldout = true;
                }
            }
        }
