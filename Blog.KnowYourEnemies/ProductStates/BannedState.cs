@@ -14,6 +14,6 @@ namespace Blog.KnowYourEnemies.ProductStates
         
         public IProductState  Deposit(Action depositAction) =>  this;
         public IProductState Withdraw(Action withDrawAction) => this;
-        public IProductState Soldout(int quantity) => this;
+        public IProductState IsSoldout(int quantity) => this;
     }
 }

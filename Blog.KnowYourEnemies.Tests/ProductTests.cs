@@ -16,7 +16,7 @@ namespace Blog.KnowYourEnemies.Tests
         public void Deposit_Quantity0Amount1_ReturnsQuantity1()
         {
             //Arrange
-            var sut = new Product(0, new ProductState(stubSoldoutAction));
+            var sut = new Product(0, new ActiveState(stubSoldoutAction));
             //Act
             sut.Deposit(1);
             //Assert
@@ -40,7 +40,7 @@ namespace Blog.KnowYourEnemies.Tests
         public void Withdraw_Quantity0Amount1_ReturnsQuantity0()
         {
             //Arrange
-            var sut = new Product(0, new ProductState(stubSoldoutAction));
+            var sut = new Product(0, new ActiveState(stubSoldoutAction));
             //Act
             sut.Withdraw(1);
             //Assert
@@ -51,7 +51,7 @@ namespace Blog.KnowYourEnemies.Tests
         public void Withdraw_Quantity1Amount1_ReturnsQuantity0()
         {
             //Arrange
-            var sut = new Product(1, new ProductState(stubSoldoutAction));
+            var sut = new Product(1, new ActiveState(stubSoldoutAction));
             //Act
             sut.Withdraw(1);
             //Assert
@@ -73,7 +73,7 @@ namespace Blog.KnowYourEnemies.Tests
         public void Withdraw_Quantity1Amount2_ReturnsQuantity1()
         {
             //Arrange
-            var sut = new Product(1, new ProductState(stubSoldoutAction));
+            var sut = new Product(1, new ActiveState(stubSoldoutAction));
             //Act
             sut.Withdraw(2);
             //Assert
@@ -84,7 +84,7 @@ namespace Blog.KnowYourEnemies.Tests
         public void Withdraw_Quantity1Amount1_ReturnsIsSoldOut()
         {
             //Arrange
-            var sut = new Product(1,new ProductState(stubSoldoutAction));
+            var sut = new Product(1,new ActiveState(stubSoldoutAction));
             //Act
             sut.Withdraw(1);
             //Assert

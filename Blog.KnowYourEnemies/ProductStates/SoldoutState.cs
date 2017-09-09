@@ -15,11 +15,11 @@ namespace Blog.KnowYourEnemies.ProductStates
         public IProductState Deposit(Action depositAction)
         {
             OnNotSoldOutAction();
-            return new ProductState(OnNotSoldOutAction);
+            return new ActiveState(OnNotSoldOutAction);
         }
 
         public IProductState Withdraw(Action withDrawAction) => this;
 
-        public IProductState Soldout(int quantity) => this;
+        public IProductState IsSoldout(int quantity) => this;
     }
 }

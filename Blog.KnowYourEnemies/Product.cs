@@ -28,7 +28,7 @@ namespace Blog.KnowYourEnemies
             if ( Quantity < amount) return;
             
             State = State.Withdraw(() => Quantity -= amount );
-            State = State.Soldout(Quantity);
+            State = State.IsSoldout(Quantity);
         }
     }
 }

@@ -2,13 +2,13 @@
 
 namespace Blog.KnowYourEnemies.ProductStates
 {
-    public class ProductState : IProductState
+    public class ActiveState : IProductState
     {
         
         private Action OnNotSoldOutAction { get; set; }
 
 
-        public ProductState(Action onNotSoldOutCondition)
+        public ActiveState(Action onNotSoldOutCondition)
         {
             OnNotSoldOutAction = onNotSoldOutCondition;
         }
@@ -25,7 +25,7 @@ namespace Blog.KnowYourEnemies.ProductStates
             return this;
         }
 
-        public IProductState Soldout(int quantity)
+        public IProductState IsSoldout(int quantity)
         {
             if (quantity > 0) return this; 
             return new SoldoutState(OnNotSoldOutAction);
