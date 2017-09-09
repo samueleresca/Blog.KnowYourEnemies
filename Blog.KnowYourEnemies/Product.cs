@@ -6,17 +6,18 @@ namespace Blog.KnowYourEnemies
        {
            public int Quantity { get; private set; }
            
-           private bool IsBanned { get; set; }
+           public bool IsSoldout { get; private set; }
 
-           private bool IsSoldout { get; set; }
+           private bool IsBanned { get; set; }
 
            private Action OnSoldOut { get; set; }
 
 
-           public Product(int quantity,  Action onSoldOut, bool isBanned = false)
+           public Product(int quantity, Action onSoldOut,  bool isBanned = false, bool isSoldout = true)
            {
                Quantity = quantity;
                IsBanned = isBanned;
+               IsSoldout = isSoldout;
                OnSoldOut = onSoldOut;
            }
            
@@ -38,10 +39,11 @@ namespace Blog.KnowYourEnemies
                {
                    Quantity -= amount;
                    
-               }else if (Quantity == 0)
-               {
-                   IsSoldout = true;
-               }
+                   if (Quantity == 0)
+                   {
+                       IsSoldout = true;
+                   }
+               } 
            }
        }
 }
