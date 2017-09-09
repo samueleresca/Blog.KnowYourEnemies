@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c560d5e8-3bb4-4ae7-864f-43a5437e6ed7" name="Default" comment="First commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies/bin/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.dll" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.pdb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.Blog.KnowYourEnemies/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Blog.KnowYourEnemies/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/ProductTests.cs" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies.Tests/ProductTests.cs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Blog.KnowYourEnemies/Product.cs" afterPath="$PROJECT_DIR$/Blog.KnowYourEnemies/Product.cs" />
     </list>
     <ignored path="Blog.KnowYourEnemies.Tests/obj/Debug/netcoreapp2.0/Blog.KnowYourEnemies.Tests.csprojResolveAssemblyReference.cache" />
@@ -31,17 +20,18 @@
       <file leaf-file-name="Product.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Blog.KnowYourEnemies/Product.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="373">
+              <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
               <folding>
-                <marker date="1504991418000" expanded="true" signature="45:1224" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="75:1222" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="410:584" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="639:872" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="755:859" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="920:1213" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="985:1199" ph="{...}" />
-                <marker date="1504991418000" expanded="true" signature="1099:1182" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="45:1275" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="75:1273" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="410:584" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="639:923" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="681:909" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="772:892" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="971:1264" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="1036:1250" ph="{...}" />
+                <marker date="1504991821000" expanded="true" signature="1150:1233" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -287,7 +277,7 @@
       <workItem from="1504813423370" duration="3192000" />
       <workItem from="1504881681178" duration="963000" />
       <workItem from="1504898603627" duration="121000" />
-      <workItem from="1504989230799" duration="2178000" />
+      <workItem from="1504989230799" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1504816299580</created>
@@ -307,7 +297,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6454000" />
+    <option name="totallyTimeSpent" value="6759000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -365,14 +355,15 @@
         <state relative-caret-position="240">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <marker date="1504991418000" expanded="true" signature="45:1224" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="75:1222" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="410:584" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="639:872" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="755:859" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="920:1213" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="985:1199" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="1099:1182" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="45:1275" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="75:1273" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="410:584" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="639:923" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="681:909" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="772:892" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="971:1264" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1036:1250" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1150:1233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -419,14 +410,15 @@
         <state relative-caret-position="240">
           <caret line="16" column="12" lean-forward="false" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <marker date="1504991418000" expanded="true" signature="45:1224" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="75:1222" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="410:584" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="639:872" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="755:859" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="920:1213" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="985:1199" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="1099:1182" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="45:1275" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="75:1273" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="410:584" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="639:923" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="681:909" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="772:892" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="971:1264" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1036:1250" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1150:1233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -473,14 +465,15 @@
         <state relative-caret-position="240">
           <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
-            <marker date="1504991418000" expanded="true" signature="45:1224" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="75:1222" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="410:584" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="639:872" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="755:859" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="920:1213" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="985:1199" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="1099:1182" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="45:1275" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="75:1273" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="410:584" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="639:923" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="681:909" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="772:892" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="971:1264" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1036:1250" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1150:1233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -561,17 +554,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Blog.KnowYourEnemies/Product.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="373">
+          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
           <folding>
-            <marker date="1504991418000" expanded="true" signature="45:1224" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="75:1222" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="410:584" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="639:872" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="755:859" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="920:1213" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="985:1199" ph="{...}" />
-            <marker date="1504991418000" expanded="true" signature="1099:1182" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="45:1275" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="75:1273" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="410:584" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="639:923" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="681:909" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="772:892" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="971:1264" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1036:1250" ph="{...}" />
+            <marker date="1504991821000" expanded="true" signature="1150:1233" ph="{...}" />
           </folding>
         </state>
       </provider>

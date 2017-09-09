@@ -23,14 +23,17 @@ namespace Blog.KnowYourEnemies
            
            public void Deposit(int amount)
            {
-               if (IsBanned) return;
-               Quantity += amount;
-
-               if (IsSoldout)
+               if (IsBanned)
                {
-                   IsSoldout = false;
-                   OnSoldOut();
+                   Quantity += amount;
+
+                   if (IsSoldout)
+                   {
+                       IsSoldout = false;
+                       OnSoldOut();
+                   }
                }
+
            }
    
            public void Withdraw(int amount)
