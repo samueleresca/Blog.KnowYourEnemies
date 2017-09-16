@@ -30,7 +30,7 @@ namespace Blog.KnowYourEnemies.Tests
             var sut = new Product(1, new BannedState(stubSoldoutAction));
             //Act
             sut.Withdraw(1);
-            //Assert
+            //Assert   
             Assert.Equal(1, sut.Quantity);
         }
 

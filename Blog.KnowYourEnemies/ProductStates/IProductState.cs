@@ -6,6 +6,8 @@ namespace Blog.KnowYourEnemies.ProductStates
     {
         IProductState Deposit(Action depositAction);
         IProductState Withdraw(Action withDrawAction);
-        IProductState IsSoldout(int quantity);
+        IProductState SoldoutHandler(int quantity);
+        bool IsAvailable();
+
     }
 }

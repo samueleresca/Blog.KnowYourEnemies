@@ -1,11 +1,12 @@
 ﻿using System;
+using System.Reflection.Metadata.Ecma335;
 
 namespace Blog.KnowYourEnemies.ProductStates
 {
     public class ActiveState : IProductState
     {
         
-        private Action OnNotSoldOutAction { get; set; }
+        private Action OnNotSoldOutAction { get; }
 
 
         public ActiveState(Action onNotSoldOutCondition)
@@ -25,10 +26,12 @@ namespace Blog.KnowYourEnemies.ProductStates
             return this;
         }
 
-        public IProductState IsSoldout(int quantity)
+        public IProductState SoldoutHandler(int quantity)
         {
             if (quantity > 0) return this; 
             return new SoldoutState(OnNotSoldOutAction);
         }
+
+        public bool IsAvailable() => true;
     }
 }

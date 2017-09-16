@@ -20,6 +20,8 @@ namespace Blog.KnowYourEnemies.ProductStates
 
         public IProductState Withdraw(Action withDrawAction) => this;
 
-        public IProductState IsSoldout(int quantity) => this;
+        public IProductState SoldoutHandler(int quantity) => this;
+        
+        public bool IsAvailable() => false;
     }
 }

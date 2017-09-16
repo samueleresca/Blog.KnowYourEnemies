@@ -4,7 +4,7 @@ namespace Blog.KnowYourEnemies.ProductStates
 {
     public class BannedState : IProductState
     {
-        private Action OnNotSoldOutAction { get; set; }
+        private Action OnNotSoldOutAction { get; }
 
 
         public BannedState(Action onNotSoldOutCondition)
@@ -14,6 +14,8 @@ namespace Blog.KnowYourEnemies.ProductStates
         
         public IProductState  Deposit(Action depositAction) =>  this;
         public IProductState Withdraw(Action withDrawAction) => this;
-        public IProductState IsSoldout(int quantity) => this;
+        public IProductState SoldoutHandler(int quantity) => this;
+
+        public bool IsAvailable() => false;
     }
 }
