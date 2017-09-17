@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 
 namespace Blog.KnowYourEnemies
 {
@@ -15,7 +13,7 @@ namespace Blog.KnowYourEnemies
             Products = porducts;
         }
         
-        public Cart GetAvailable() => new Cart(Products.Where(prd=> prd.State.IsAvailable()));
+        public Cart GetAvailable() => new Cart(Products.Where(prd=> prd.IsAvailable()));
 
         public decimal GetTotal() => GetAvailable().Products.Sum(prod => prod.Price);
 

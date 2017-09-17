@@ -2,7 +2,7 @@
 
 namespace Blog.KnowYourEnemies
 {
-    public class Product
+    public class Product 
     {
         public int Quantity { get; private set; }
         public IProductState State { get; set; }
@@ -22,12 +22,10 @@ namespace Blog.KnowYourEnemies
             Price = price;
         }
 
-        public void Deposit(int amount)
-        {
-            State = State.Deposit(() => Quantity += amount );
+        public void Deposit(int amount) =>  State = State.Deposit(() => Quantity += amount );
 
-        }
-
+        public bool IsAvailable() => State.IsAvailable();
+        
         public void Withdraw(int amount)
         {
             if ( Quantity < amount) return;
@@ -35,5 +33,7 @@ namespace Blog.KnowYourEnemies
             State = State.Withdraw(() => Quantity -= amount );
             State = State.SoldoutHandler(Quantity);
         }
+
     }
+
 }
